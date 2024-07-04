@@ -4,4 +4,9 @@ The following project is a voice-controlled bot created using C# and .NET framew
 Working On/To-Do: 
 -Youtube interaction with videos (play, pause, rewind, ahead, search etc...)
 
--Calender event creator. 
+-Calender event creator
+
+-Set reminders by asking bot to set reminders, prompt to mention what reminder (message and prompt time will be stored in a database, preferably SQLite or PostgreSQL). 
+
+-Check due reminders, bot checks for reminders that have passed, if found, bot fetches them and reads it to the user which will then be removed from the database (the bot checks for due reminders periodically). 
+
