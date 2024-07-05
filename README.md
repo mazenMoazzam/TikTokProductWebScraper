@@ -2,7 +2,8 @@
 The following project is a voice-controlled bot created using C# and .NET framework (Version 5) as well with the Speech Recognition library. Interactive voicebot that allows you to say a command and it will execute the following. For example, I say to the bot, "go to youtube", the bot (named Botimus Prime), will take you to Youtube with no work from the user. 
 
 Working On/To-Do: 
--Youtube interaction with videos (play, pause, rewind, ahead, search etc...)
+-Youtube interaction with videos (play, pause, rewind, ahead, search etc...). This will be accomplished by setting up a client server application within the bot. Bot receives voice command to pause the 
+video from the user, which then intializes an http object to send HTTP requests to. An HTML page containing the embedded youtube video and the necessary interactive functions (play, pause, rewind etc.). The html page serves as the webserver and will take in requests from the bot which will then respond with the necessary function. 
 
 -Calender event creator
 
