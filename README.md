@@ -3,7 +3,7 @@ The following project is a voice-controlled bot created using C# and .NET framew
 
 Working On/To-Do: 
 -Youtube interaction with videos (play, pause, rewind, ahead, search etc...). This will be accomplished by setting up a client server application within the bot. Bot receives voice command to pause the 
-video from the user, which then intializes an http object to send HTTP requests to. An HTML page containing the embedded youtube video and the necessary interactive functions (play, pause, rewind etc.). The html page serves as the webserver and will take in requests from the bot which will then respond with the necessary function. 
+video from the user, which then intializes an http object to send HTTP requests to. An HTML page containing the embedded youtube video and the necessary interactive functions (play, pause, rewind etc.). The html page serves as the webserver and will take in requests from the bot which will then respond with the necessary function. UPDATE: API will need to made (Python, Flask) to implement video bot interactions. 
 
 -Calender event creator
 
