@@ -11,3 +11,5 @@ video from the user, which then intializes an http object to send HTTP requests 
 
 -Check due reminders, bot checks for reminders that have passed, if found, bot fetches them and reads it to the user which will then be removed from the database (the bot checks for due reminders periodically). 
 
+NOTES: Work on Flask interactive API, integrate with bot by intializing an http server class and send POST request to flask API. 
+
