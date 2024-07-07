@@ -36,7 +36,7 @@ def pause():
 @app.route('/rewind', methods=['POST'])
 def rewind():
     try:
-        for _ in range(10):
+        for rewinds in range(10):
             driver.find_element_by_tag_name('body').send_keys(Keys.LEFT)
         return jsonify({'status': 'rewinded'})
     except Exception as e:
@@ -45,7 +45,7 @@ def rewind():
 @app.route('/forward', methods=['POST'])
 def forward():
     try:
-        for _ in range(10):
+        for forwards in range(10):
             driver.find_element_by_tag_name('body').send_keys(Keys.RIGHT)
         return jsonify({'status': 'forwarded'})
     except Exception as e:
