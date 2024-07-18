@@ -25,8 +25,8 @@ for productRow in soup.find_all('tr', class_='product row class'):
 
 print("Current directory:", os.getcwd()) #wrote this to see what directory the csv file is being written
 
-output_path = 'tiktokProducts.csv'
-with open(output_path, 'w', newline='', encoding='utf-8') as file:
+outputPath = 'tiktokProducts.csv'
+with open(outputPath, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Product Name', 'Category', 'Popularity', 'Popularity Change', 'CTR', 'CVR', 'CPA'])
     writer.writerows(products)
