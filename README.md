@@ -3,3 +3,4 @@ Made this for reselling purposes on TikTok shop. Web scraper extracts the most t
 
 Will utilize cronjobs to webscrape content every week to receive updates on product trends to ensure accurate updates.
 
+n
